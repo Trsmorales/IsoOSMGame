@@ -18,7 +18,6 @@ var Client = IgeClass.extend({
 
 		// Implement our game object definitions (see ClientObjects.js)
 		this.implement(ClientObjects);
-
 		// Wait for our textures to load before continuing
 		ige.on('texturesLoaded', function () {
 			// Create the HTML canvas
